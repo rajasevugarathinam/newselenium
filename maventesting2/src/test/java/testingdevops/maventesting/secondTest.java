@@ -7,7 +7,7 @@ public class secondTest {
 	@Test
 	public void sampletest()
 	{
-		System.out.println("am second working")
+		System.out.println("am second working");
 		
 	}
 
