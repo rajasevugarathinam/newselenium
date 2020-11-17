@@ -7,10 +7,11 @@ import org.testng.annotations.Test;
 public class secondTest {
 	
 	@Test
-	public void sampletest()
+	public void sampletest() throws InterruptedException
 	{
 		System.out.println("am second working");
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\CP002\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		Thread.sleep(5000);
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\CP002\\Downloads\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://google.com");
 		
