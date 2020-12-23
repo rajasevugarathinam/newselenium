@@ -65,7 +65,7 @@ public class secondTest {
 		 driver.switchTo().frame(driver.findElement(By.xpath("//*[contains(@id,'DlgFrame')]")));
 		System.out.println(driver.getTitle());
 		WebElement policytype = driver.findElement(By.xpath("//input[contains(@id,'TextField')]"));		
-		policytype.sendKeys("December Thursday");
+		policytype.sendKeys("December Friday Demo");
 		WebElement PolicyCreator = driver.findElement(By.xpath("//input[@id='PolicyCreator_5be90856-cc8e-48bf-9bf0-0718b96e54dc_"
 				+ "$ClientPeoplePicker_EditorInput']")); 
 		PolicyCreator.sendKeys("Raja Sevugarathinam");
