@@ -17,7 +17,7 @@ public class secondTest {
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\CP002\\git\\newselenium\\maventesting2\\driver\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://google.com");
+		driver.get("https://convergepoint-b45c1a964d84c4.sharepoint.com/sites/Policy-Test/PolicyPortal/Pages/Default.aspx");
 		
 		
 	}
