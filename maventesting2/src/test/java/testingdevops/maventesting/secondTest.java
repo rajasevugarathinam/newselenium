@@ -10,8 +10,9 @@ public class secondTest {
 	public void sampletest() throws InterruptedException
 	{
 		System.out.println("am second working");
-		Thread.sleep(5000);
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\CP002\\Downloads\\chromedriver.exe");
+		/*String chrome_driver_path= "/maventesting2/driver/chromedriver.exe";*/
+		
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "//driver/chromedriver.exe" );
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://google.com");
 		
